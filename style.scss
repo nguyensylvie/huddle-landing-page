@@ -17,7 +17,7 @@ body {
 
 .component {
   background-color: $violet;
-  background-image: url("../../images/bg-mobile.svg");
+  background-image: url("../images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -94,7 +94,7 @@ body {
 
 @media (min-width: 768px) {
   .component {
-    background-image: url("../../images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
     .component_header {
       padding: 3.125rem;
       img {
