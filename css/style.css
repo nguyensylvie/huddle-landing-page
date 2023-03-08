@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.component {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  min-height: 100vh;
+}
+.component .component_header {
+  padding: 1.875rem;
+}
+.component .component_header img {
+  width: 8em;
+  height: auto;
+}
+.component .component_illustration {
+  padding: 1.875rem 2.875rem;
+}
+.component .component_illustration img {
+  width: 100%;
+  height: auto;
+}
+.component .component_description {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.component .component_description h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 2.188rem;
+  padding: 1.875rem 2.5rem 0 2.5rem;
+  margin: 0;
+}
+.component .component_description p {
+  padding: 0 2rem 0 2rem;
+  font-size: 0.938rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 1.25rem 0;
+}
+.component .component_description .btn-primary {
+  font-size: 0.625rem;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(257, 40%, 49%);
+  border: 0;
+  border-radius: 50px;
+  padding: 0.625rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.component .component_description .btn-primary:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 100%);
+}
+.component .component_description .social_media a {
+  font-size: 12px;
+  padding: 0 4px;
+}
+.component .component_description .social_media a .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 12px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
+}
+.component .component_description .social_media a .icon:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media (min-width: 768px) {
+  .component {
+    background-image: url("../../images/bg-desktop.svg");
+  }
+  .component .component_header {
+    padding: 3.125rem;
+  }
+  .component .component_header img {
+    width: 11em;
+    height: auto;
+  }
+  .component .component_description {
+    text-align: left;
+  }
+  .component .component_description h1 {
+    font-size: 2.188rem;
+    line-height: 3.438rem;
+    padding-left: 0;
+  }
+  .component .component_description p {
+    padding-left: 0;
+    padding-right: 2.875rem;
+    margin: 1.25rem 0 1.563rem 0;
+  }
+  .component .component_description .btn-primary {
+    font-size: 1rem;
+    padding: 0.938rem 0;
+  }
+  .component .component_description .social_media {
+    padding-top: 6.25rem;
+    padding-right: 2.875rem;
+  }
+  .component .component_description .social_media a {
+    font-size: 0.938rem;
+  }
+  .component .component_description .social_media a .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 0.938rem;
+  }
+  .component .mx-auto {
+    margin: 0 !important;
+  }
+}/*# sourceMappingURL=style.css.map */
