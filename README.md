@@ -5,12 +5,18 @@ This is a solution to the [Huddle landing page with single introductory section 
 ## Table of contents
 
 - [Overview](#overview)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
+
+### Screenshot
+
+![](./screenshots/screenshot_desktop.png)
+![](./screenshots/screenshot_mobile.png)
 
 ### Links
 
